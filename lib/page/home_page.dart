@@ -24,7 +24,12 @@ class _HomePageState extends State<HomePage> {
     } else {
       db.loadData();
     }
-    progessBarValue = db.todoList.map((e) => e[1]).where((element) => element).length / db.todoList.length;
+    progessBarValue =
+        db.todoList.map((e) => e[1]).where((element) => element).length /
+            db.todoList.length;
+    if (progessBarValue.isNaN) {
+      progessBarValue = 0;
+    }
     super.initState();
   }
 
@@ -32,7 +37,11 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       db.todoList[index][1] = !db.todoList[index][1];
       progessBarValue =
-          db.todoList.map((e) => e[1]).where((element) => element).length / db.todoList.length;
+          db.todoList.map((e) => e[1]).where((element) => element).length /
+              db.todoList.length;
+      if (progessBarValue.isNaN) {
+        progessBarValue = 0;
+      }
     });
     db.updateData();
   }
@@ -63,7 +72,11 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       db.todoList.removeAt(index);
       progessBarValue =
-          db.todoList.map((e) => e[1]).where((element) => element).length / db.todoList.length;
+          db.todoList.map((e) => e[1]).where((element) => element).length /
+              db.todoList.length;
+      if (progessBarValue.isNaN) {
+        progessBarValue = 0;
+      }
     });
     db.updateData();
   }
