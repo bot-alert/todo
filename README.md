@@ -11,7 +11,7 @@ This is a todo application built using Flutter, which allows users to create and
 * Save todos to local storage using Hive
 ## Images
 
-<img src="https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358687.png" width="50" height="50">
+<img src="https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358687.png" width="500" height="500">
 
 
 ![](https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358691.png)
