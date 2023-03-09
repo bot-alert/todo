@@ -11,11 +11,10 @@ This is a todo application built using Flutter, which allows users to create and
 * Save todos to local storage using Hive
 ## Images
 
-<img src="https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358687.png" width="200" height="500">
+<img src="https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358687.png" width="250" height="500">
+<img src="https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358691.png" width="250" height="500">
+<img src="https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358694.png" width="250" height="500">
 
-
-![](https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358691.png)
-![](https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358694.png)
 ## Getting Started
 
 To get started with the Flutter Todo App, follow these steps:
