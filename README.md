@@ -9,7 +9,13 @@ This is a todo application built using Flutter, which allows users to create and
 * Delete todos that are no longer needed
 * View progress of todos with a progress bar
 * Save todos to local storage using Hive
+## Images
 
+<img src="https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358687.png">
+
+
+![](https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358691.png)
+![](https://github.com/bot-alert/todo/blob/main/gitimage/Screenshot_1678358694.png)
 ## Getting Started
 
 To get started with the Flutter Todo App, follow these steps:
